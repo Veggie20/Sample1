@@ -1,0 +1,116 @@
+    .page-header{
+    background: url(images/bg-main_visual.jpg) center top no-repeat;
+    position: relative;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 40%;
+}
+.page-header-logo{
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+}
+.section{
+    background-color: #fffff3;
+    padding: 100px 0px;
+}
+.typo-bold{
+    font-weight: bold;
+}
+.section__title{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section__text{
+    text-align: center;
+    font-size: 16px;
+}
+
+#feature{
+    background: url(images/bg-content.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section__title--white{
+    color: aliceblue;
+    font-size: 32px;
+    text-align: center;
+}
+.feature-list{
+    width: 960px;
+    margin: 0 auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.feature-block{
+    background-color: #fffff3;
+    display: flex;
+}
+.feature-block__image{
+    width: 50%;
+    
+}
+.feature-block__wrapper{
+    padding: 20px 20px;
+    width: 50%;
+    box-sizing: border-box;
+}
+.feature-block__title{
+    margin-bottom: 20px;
+    font-size: 2.0rem;
+    line-height: 1.75;
+}
+.feature-block__text{
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+.feature-list__item:nth-child(even){
+    flex-direction: row-reverse;
+}
+.section__text:not(:last-child){
+    padding-bottom: 70px;
+}
+.client-list{
+    display: flex;
+    justify-content: space-between;
+    width: 780px;
+    margin: 0 auto;
+    list-style: none;
+}
+.page-footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: green;
+    position: relative;
+    padding: 24px 20px;
+}
+.page-footer__copyright{
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;   
+    font-size: 1.2rem;
+    z-index:  1;
+    transform: translate(-50%, -50%)
+}
+ul{
+    display: flex;
+    
+}
+.page-footer__nav li:not(:last-child){
+    margin-right: 20px;
+}
+.page-footer__nav li{
+    list-style: none;
+}
+.page-footer__nav a{
+    color: aliceblue;
+    font-size: 1.2rem;
+    text-decoration: none;
+    line-height: 1 ;
+}
+
+
